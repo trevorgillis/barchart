@@ -1,0 +1,17 @@
+body {
+	background: #999999;
+}
+.container {
+	background: #ffffff;
+	-webkit-box-shadow: 0 0 5px 0 #666666;
+	-moz-box-shadow: 0 0 5px 0 #666666;
+	box-shadow: 0 0 5px 0 #666666;
+}
+#symbol {
+	padding: 6px;
+	border-radius: 5px;
+	border: 1px solid #999999;
+}
+#symbol, .addSymbol {
+	vertical-align: top;
+}
