@@ -10,8 +10,8 @@ error_reporting(E_ERROR);
 
 // Database Connection
 define('DATABASE_HOST', 'localhost');
-define('DATABASE_USERNAME', 'devel');
-define('DATABASE_PASSWORD', 'ecwdevel');
+define('DATABASE_USERNAME', '_uname_');
+define('DATABASE_PASSWORD', '_password_');
 define('DATABASE_DB', 'barchart');
 
 $link = mysqli_connect(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_DB);
